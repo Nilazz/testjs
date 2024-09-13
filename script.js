@@ -1,4 +1,8 @@
- $('.top.positioner').find('.bg').css("background", "none")
+(function() {
+    'use strict';
+
+
+$('.top.positioner').find('.bg').css("background", "none")
         $('.bottom.positioner').find('.bg').css("background", "none")
         $('.bottom.positioner').find('.bg-additional-widget-left').css("background", "none")
         $('.bottom.positioner').find('.bg-additional-widget-right').css("background", "none")
@@ -149,3 +153,6 @@
 
         const styleEl = stringToHtml(style);
         document.head.appendChild(styleEl);
+
+
+ })();
